@@ -1,2 +1,1 @@
-web: java $JAVA_OPTS -jar target/*.jar --p $PORT
-
+web: java -jar build/libs/rate-0.0.1-SNAPSHOT.jar
